@@ -1,0 +1,182 @@
+/* font Setup */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Nav Bar */
+header {
+    height: 102px;
+    width: 1400px;
+}
+nav {
+    height: 62px;
+    width: 1160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+.nav-logo {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+.nav-a{
+    display: flex;
+    gap: 32px;
+    font-size: 20px;
+}
+.a4 {
+    color: #5D58EF;
+    font-weight:500;
+}
+.a3 {
+    color: #05D4DF;
+    font-weight:500;
+}
+.a2 {
+    color: #01ACFD;
+    font-weight:500;
+}
+.a1 {
+    color: #FEA301;
+    font-weight:500;
+}
+.menu {
+    display: none;
+}
+.nav-btn {
+    height: 40px;
+    width: 190px;
+    background-color: #FEA301;
+    border-radius: 12px;
+    text-align: center;
+    padding-top: 13px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.mob {
+    display: none;
+}
+/* Navbar for mobile */
+@media screen and (max-width: 576px) {
+    header {
+        height: 70px;
+        max-width: 390px;
+    }
+    nav {
+        margin: 20px 0;
+    }
+    .nav-a, .nav-btn, .nav-logo>h3{
+        display: none;
+    }
+    .nav-logo {
+        display: flex;
+        gap: 290px;
+        margin: 0 5px;
+    }
+    .nav-logo img {
+        align-items: start;
+    }
+    .menu {
+        display:flex;
+        height: 35px;
+        width: 35px;
+        opacity: 60%; 
+    }
+    .mob {
+        display:flex;
+        background-color: #FEA301;
+    }
+}
+/* Navbar for mobile ended*/
+/* Nav Bar ended  */
+
+/* enroll section start */
+ .enroll{
+    height: 575px;
+    width: 1159px;
+    display: flex;
+    align-items: center;
+    margin: 20px 141px;
+    gap: 50px;
+ }
+ .enroll-h{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 0;
+ }
+ .empower {
+    color: #FEA301;      
+ }
+ .vision {
+    color: #01ACFD;
+ }
+ .enroll-p{
+    font-size: 20px;
+
+ }
+ .enroll-btn {
+    height: 50px;
+    width: 190px;
+    background-color: black;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+ }
+ .enroll-mobile {
+    display: none;
+ }
+/* enroll section for mobile */ 
+@media screen and (max-width: 576px) {
+    .enroll {
+        max-width: 357px; 
+        height: 725px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;    /*problem*/
+        margin-right: 0;
+   
+    }
+    .enroll-pc {
+        display: none;
+    }
+    .enroll-mobile{
+        display: flex;
+        height: 413px;
+        max-width: 337px;
+        margin-top: 25px;   
+    }
+    .enroll-h{
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 0;
+        text-align: center;    
+     }
+     .enroll-p{
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+     }
+     .div {
+        margin-left: 15px;
+     }
+     .enroll-btn {
+        margin-left: 75px;
+        margin-top: 10px;
+        font-size: ;
+     }
+}
+}
+
+/* enroll section for mobile ended  */
+/* enroll section ended */
