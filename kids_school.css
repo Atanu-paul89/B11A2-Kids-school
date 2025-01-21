@@ -309,7 +309,6 @@ nav {
         background: linear-gradient(to bottom, #F7E7CE 0%, #DEF5FF 0%, white 30%);
     }
     .card-2 {
-        p
         background: linear-gradient(to bottom, #F7E7CE 0%, #f7e7ceb9 0%, white 30%);
     }
     .card-3 {
@@ -337,3 +336,100 @@ nav {
     }
 }
 
+/* curriculum section for mobile ended */
+/* curriculum section ended*/
+
+/* Stories section start */
+.stories {
+    height: 930px;
+    width: 1400px;
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background: linear-gradient(to top, #F7E7CE 0%, #f7e7ceb9 20%, white 80% ), url("./assets/bg.png");
+}
+.stories img {
+    max-width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.stories >h1{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stories-cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(1,1fr); */
+    align-content: center;
+    gap: 19px;
+    height: 630.52px;
+    width: 1160px;
+    margin: 80px 160px auto 120px;
+    position: relative;
+   
+    
+}
+.storiescard-1 {
+    
+    grid-row: span 3;
+    height: 630px;   
+    width: 540.27px;
+    border-radius: 16px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.storiescard-2, .storiescard-3, .storiescard-4, .storiescard-5 {
+    width: 290.69px;
+    height: 301.61px;
+    /* margin-top: 0px; */
+    background-color: white;
+    border-radius: 16px;
+    
+}
+.storiescard-2, .storiescard-3{
+    margin-top:5px;
+}
+.span-1, .span-2, .span-3, .span-4, .span-5 {
+
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    padding: 8px;
+    font-size: 15.34px;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    top: 314px; 
+    left: 24px;
+    z-index: 1;
+    color: white;
+}
+
+.storiescard-1 h3{
+    font-size: 24px;
+    margin: 50px 30px 30px;
+    
+} 
+.storiescard-1 p{
+    font-size: 15.93px;
+    color: #666666;
+    font-weight: 600;
+    margin: 50px 30px 30px;
+}
+.storiescard-2 h3, .storiescard-3 h3, .storiescard-4 h3, .storiescard-5 h3{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 50px 30px 30px;
+}
+.strbtn {
+    margin: 70px 640px 0px 640px;
+    cursor: pointer;
+    transition: transform;
+}
+.strbtn:hover {
+    transform: scale(1.1) translate(20px) ;
+    background-color: skyblue;
+}
