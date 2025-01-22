@@ -7,6 +7,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  body{
+    margin: 0;
+  }
 /* Nav Bar */
 header {
     height: 102px;
@@ -502,7 +505,7 @@ nav {
     } */
     .stories {
         max-width: 390px;
-        max-height: auto;
+        height: 820px;
         margin-left: 7px;
         margin-right: 5px;
         background: linear-gradient(to top, #F7E7CE 0%, #edeae6b9 20%, white 80% ), 
@@ -651,5 +654,133 @@ nav {
         transform: scale(0.8) translate(10px) ;
         background-color: skyblue;
     }
+}
+/* Section: stories for mobile ended */
+/* Section: Stories ended */
 
+/* footer section start */
+
+/* footer {
+    height: 519px;
+    width: 1400px;
+    color: white;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.last {
+    height: 222px;
+    width: 1070.91px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+} */
+
+footer {
+    height: 519px;
+    width: 1400px;
+    color: white;
+    background-color: #01ACFD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Left Section */
+.left {
+    width: 35%;
+}
+
+.left-img {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-img img {
+    width: 82.9px;
+    height: 81.65px;
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.left h1 {
+    font-size: 42.14px;
+    font-weight: bold;
+}
+
+.left p {
+    margin-top: 0px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Middle Section */
+.mid {
+    width: 20%;
+    text-align: left;
+}
+
+.mid h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.mid ul {
+    list-style: none;
+    padding: 0;
+}
+
+.mid ul li {
+    margin: 8px 0;
+    margin-bottom: 21px;
+}
+
+.mid ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+/* Right Section */
+.right {
+    width: 20%;
+    text-align: left;
+    height: 205px;
+}
+
+.right h3 {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-size: 26px;
+}
+
+.right-img {
+    display: flex;
+    gap: 10.15px;
+}
+
+.right-img img {
+    width: 40.61px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* General Reset for Links and Images */
+
+
+img {
+    display: inline-block;
 }
