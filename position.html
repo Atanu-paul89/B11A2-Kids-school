@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    /* Grid styling for layout */
+.grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+  }
+  
+  /* Card styling */
+  .card {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Date styling */
+  .date {
+    background-color: #5fc9f8; /* Light blue */
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px; /* Round the corners */
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    margin-top: 40px; /* Ensure spacing when the date is present */
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Description styling */
+  .description {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <!-- Card 1 -->
+        <div class="card">
+          <span class="date">November 19, 2019</span>
+          <h3 class="title">A fun toddler coloring training on classroom</h3>
+          <p class="description">
+            Beautiful branding for changes by Never Now in Australia. Changes is a platform for open discussion in an inclusive and collaborative environment...
+          </p>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="card">
+            <span class="date">November 19, 2019</span>
+          <h3 class="title">Find out if a school fits the family’s needs</h3>
+        </div>
+      
+        <!-- Card 3 -->
+        <div class="card">
+            <span class="date">November 19, 2019</span>
+          <h3 class="title">Summer math & literacy centres for kids</h3>
+        </div>
+      
+        <!-- Card 4 -->
+        <div class="card">
+            <span class="date">November 19, 2019</span>
+          <h3 class="title">Classroom management techniques for new tutors</h3>
+        </div>
+      
+        <!-- Card 5 -->
+        <div class="card">
+            <span class="date">November 19, 2019</span>
+          <h3 class="title">Conversation rhymes improve kids listening</h3>
+        </div>
+      </div>
+      
+</body>
+</html>
